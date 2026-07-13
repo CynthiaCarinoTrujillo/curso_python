@@ -47,5 +47,8 @@ print("segunda verificacion", isinstance(anios_user, int))
 
 #La función isinstance() también te permite verificar múltiples tipos a la vez.
 
-resultado_multiple=isinstance(anios_user,(int, float))
-print("resultado multiple", resultado_multiple)
+resultado_multiple=isinstance(anios_user,(int, float)) #comprueba, es entero O decimal
+print("resultado multiple", resultado_multiple) 
+
+is_student = True
+print(is_student, type(is_student)) #imprimes la variable y su tipo de dato

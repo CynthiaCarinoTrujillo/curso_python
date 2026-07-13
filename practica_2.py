@@ -33,12 +33,19 @@ print("novena variable", type(novena_variable))
 
 """
 La funcion isinstance() se utiliza para verificar si un objeto es una 
-instancia de una clase en especifico"""
+instancia de una clase en especifico. La función integrada isinstance() te 
+permite comprobar si una variable coincide con un tipo de dato específico. 
+Recibe un objeto y el tipo contra el que quieres verificarlo, y devuelve un booleano"""
 
-anios_user=56
+anios_user="Hola"
 
 #vamos a verificar si la variable anios_user es de tipo float
 resultado=isinstance(anios_user,float)
 print("resultado de la variable es", resultado)
 #para ahorrarnos una variable podemos directamente imprimir el resultado
 print("segunda verificacion", isinstance(anios_user, int))
+
+#La función isinstance() también te permite verificar múltiples tipos a la vez.
+
+resultado_multiple=isinstance(anios_user,(int, float))
+print("resultado multiple", resultado_multiple)

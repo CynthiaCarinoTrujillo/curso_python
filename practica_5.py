@@ -12,3 +12,16 @@ print(variable_cadena.upper())
 
 #lower(): Devuelve una nueva cadena con todos los caracteres convertidos a minúsculas.
 print(variable_cadena.lower())
+
+#strip(): Devuelve una nueva cadena con los caracteres especificados de inicio y final eliminados.
+#Si no se pasa ningún argumento, elimina los espacios en blanco de inicio y final.
+cadena_con_espacios = " Las flores son amarillas "
+cadena_inicio_fin = "r Afuera llueve r"
+print(cadena_con_espacios.strip())
+print(cadena_inicio_fin.strip("r"))
+
+""" replace(caracteres1, caracteres2): Devuelve una nueva cadena con todas las ocurrencias de 
+caracteres1 reemplazadas por caracteres2."""
+despedida="Nos vemos el martes"
+print(despedida.replace("Nos vemos", "Te veo")) #imprime te veo el martes
+

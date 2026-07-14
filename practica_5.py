@@ -25,6 +25,10 @@ caracteres1 reemplazadas por caracteres2."""
 despedida="Nos vemos el martes"
 print(despedida.replace("Nos vemos", "Te veo")) #imprime te veo el martes
 
+#split(separator): Divide una cadena en un separador especificado en una lista de cadenas. 
+#Si no se especifica separador, divide en espacios.
+
+
 #entrada de usuario
 nombre=input("Como te llamas ")
 print("hola ", nombre)

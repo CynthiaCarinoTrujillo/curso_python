@@ -25,3 +25,6 @@ caracteres1 reemplazadas por caracteres2."""
 despedida="Nos vemos el martes"
 print(despedida.replace("Nos vemos", "Te veo")) #imprime te veo el martes
 
+#entrada de usuario
+nombre=input("Como te llamas ")
+print("hola ", nombre)
